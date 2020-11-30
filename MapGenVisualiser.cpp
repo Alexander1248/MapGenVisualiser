@@ -94,9 +94,9 @@ int main() {
 		CircleShape use(5);
 		use.setPosition(Vector2f({ 15,17.5f + 40.f * state }));
 		Vector2i localPosition = Mouse::getPosition(window);
-		Text text("TEST!!!", font, 20);
+		Text text("Start MapGen", font, 20);
 		button.setPosition(Vector2f({ 10,660 }));
-		text.setPosition(Vector2f({ 90,675 }));
+		text.setPosition(Vector2f({ 50,675 }));
 		text.setFillColor(Color::Black);
 		window.draw(button);
 		window.draw(text);
