@@ -10,3 +10,5 @@ Switch to the previous item-W.
 Increase the value of the current item - D.
 
 Decrease the value of the current item - A.
+
+Enter the value from the keyboard in the console-Tab.
